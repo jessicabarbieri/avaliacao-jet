@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recupera Formulário</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- Google Web Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        <!-- Main Scripts -->
+        <script src="js/script.js"></script>
+        <!-- Main Styles -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+                <div class="row">
+                    <img src="img/logo-jet.png" class="img-logo" alt="Logo">
+                </div>
+                <div class="row">
+                    <p><b>AVALIAÇÃO FRONT END - FORMULÁRIO DE CONTATO</b></p>
+                </div>
+                <div class="row row-custom">
+                    <div class="container col-md-6" id="buscaId">
+                        <div class="form-group">
+                            <label>ID do Formulário (ex: 2)</label>
+                            <input type="text" class="form-control form-control-custom" id="idForm" style="width: 200px;" placeholder="Digite o ID do Formulário">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-custom" onclick="recuperaForm()">Buscar</button>
+                        <button type="button" class="btn btn-primary btn-custom btn-cancelar" onclick="location.href='index.html'">Voltar</button>
+                    </div>
+                </div>
+
+                <form class="container col-md-6" id="form" style="padding-top: 40px; padding-bottom: 50px;"></form>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- Google Web Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        <!-- Main Scripts -->
+        <script src="js/script.js"></script>
+        <!-- Main Styles -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+    <div class="bg-contact" style="background-image: url('img/bg01.jpg');">
+        <div class="container-contact">
+            <div class="wrap-contact">
+                <div class="row">
+                    <img src="img/logo-jet.png" class="img-logo" alt="Logo">
+                </div>
+                <div class="row">
+                    <p><b>AVALIAÇÃO FRONT END - FORMULÁRIO DE CONTATO</b></p>
+                </div>
+                <form class="container col-md-10" id="form">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" class="form-control form-control-custom" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control form-control-custom" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="form-group">
+                        <label>Telefone</label>
+                        <input type="text" class="form-control form-control-custom" id="telefone" name="telefone" placeholder="(00) 00000-0000" data-mask="(00) 0000-0000" data-mask-selectonfocus="true">
+                    </div>
+                    <div class="form-group">
+                        <label>Assunto</label>
+                        <input type="text" class="form-control form-control-custom" id="assunto" placeholder="Digite o assunto">
+                    </div>
+                    <div class="form-group">
+                        <label>Mensagem</label>
+                        <textarea type="text" class="form-control form-control-custom" id="mensagem" rows="4" placeholder="Digite a sua mensagem"></textarea>
+                    </div>
+
+                    <button type="submit" id="salvar" class="btn btn-primary btn-custom" onclick="salvaForm()">Salvar</button>
+                    <button type="button" class="btn btn-primary btn-custom" onclick="location.href='recupera.html'">Recuperar Formulário</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+
+

@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    float: none;
+}
+
+.img-logo {
+    width: 180px;
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-custom {
+    background-color: #283949;
+    border: none;
+}
+    .btn-custom:hover {
+        background-color: #495c6f;
+    }
+
+    .btn-custom:focus {
+        background-color: #19242f !important;
+    }
+
+.btn-cancelar {
+    margin-left: 5px;
+    background-color: #ff2838;
+}
+    .btn-cancelar:hover {
+        margin-left: 5px;
+        background-color: #fa4d5a;
+    }
+
+    .btn-cancelar:focus {
+        background-color: #b50e1b !important;
+    }
+
+.row-custom {
+    padding-top: 40px;
+}
+
+.lbl-get-form {
+    padding-top: 15px; 
+    font-size: 16px;
+}
+
+.form-control-custom {
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 12px;
+    background-color: #edecec;
+}
+    .form-control-custom:focus {
+        border: none;
+        box-shadow: 0 0 0.6em rgba(40, 57, 73, 0.5);
+    }
+
+.wrap-contact {
+    width: 780px;
+    height: 700px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    float: none;
+    flex-wrap: wrap;
+    padding: 10px 10px 15px 18px;
+}
+
+.container-contact {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background: rgba(40, 57, 73, 0.8);
+}
+
+.bg-contact {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
